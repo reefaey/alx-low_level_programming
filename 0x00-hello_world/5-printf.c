@@ -2,6 +2,8 @@
 /**
  * main - Entry point
  *
+ * Description: program print with printf not pust
+ *
  * Return Always 0 (success)
  */
 int main(void)
