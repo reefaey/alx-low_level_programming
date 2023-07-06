@@ -7,10 +7,9 @@
  */
 void _print_rev_recursion(char *s)
 {
-	if (*s == s[0])
-	return;
-	int ch = strlen(*s);
-	/*To get length of array*/
-	_putchar(ch);
-	_print_rev_recursion(ch--);
+	if (*s)
+	{
+		_print_rev_recursion(s + 1);
+		_putchar(ch);
+	}
 }
